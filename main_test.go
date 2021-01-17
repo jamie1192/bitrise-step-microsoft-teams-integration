@@ -37,7 +37,7 @@ func TestBuildPrimarySection(t *testing.T) {
 
 func TestBuildFactsSection(t *testing.T) {
 	const unixTimeString = "1610768692"
-	const parsedUnixTime = "Sat, 16 Jan 2021 14:44:52 AEDT"
+	const parsedUnixTime = "Sat, 16 Jan 2021 03:44:52 UTC"
 
 	var mockConfig = config{
 		SuccessThemeColor:        "FFFFFF",
